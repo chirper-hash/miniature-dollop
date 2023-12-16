@@ -1,0 +1,35 @@
+{
+  "name": "chirperbot",
+  "version": "0.1.0",
+  "description": "A Telegram bot offering communications functionality using Nexmo",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava test/*"
+  },
+  "keywords": [
+    "telegram",
+    "nexmo",
+    "bot",
+    "phone",
+    "calls",
+    "otp",
+    "sms",
+    "communications"
+  ],
+  "author": "P48l0 3dnu7",
+  "license": "MIT",
+  "engines": {
+    "node": "v20.x"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "grammy": "^1.19.2",
+    "nexmo": "^2.9.1",
+    "sinon": "^17.0.1",
+    "uuid": "^3.0.1"
+  },
+  "devDependencies": {
+    "ava": "^6.0.1"
+  }
+}

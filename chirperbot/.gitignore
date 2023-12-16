@@ -1,0 +1,4 @@
+node_modules
+private.key
+private.heroku.key
+.env
